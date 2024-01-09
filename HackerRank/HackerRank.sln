@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolveMeFirst", "SolveMeFirst", "{8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveMeFirstLibrary", "SolveMeFirst\SolveMeFirstLibrary\SolveMeFirstLibrary.csproj", "{5220BA94-637F-4972-A9AD-7DAEB236FDC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveMeFirstLibraryTests", "SolveMeFirst\SolveMeFirstLibraryTests\SolveMeFirstLibraryTests.csproj", "{3347053F-56CB-4C16-8001-7B2D6D84E440}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5220BA94-637F-4972-A9AD-7DAEB236FDC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5220BA94-637F-4972-A9AD-7DAEB236FDC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5220BA94-637F-4972-A9AD-7DAEB236FDC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5220BA94-637F-4972-A9AD-7DAEB236FDC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5220BA94-637F-4972-A9AD-7DAEB236FDC7} = {8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}
+		{3347053F-56CB-4C16-8001-7B2D6D84E440} = {8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA23CFFD-DF19-42CC-80BA-A2C55F300389}
+	EndGlobalSection
+EndGlobal
