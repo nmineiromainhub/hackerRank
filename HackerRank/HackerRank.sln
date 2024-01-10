@@ -5,9 +5,15 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SolveMeFirst", "SolveMeFirst", "{8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveMeFirstLibrary", "SolveMeFirst\SolveMeFirstLibrary\SolveMeFirstLibrary.csproj", "{5220BA94-637F-4972-A9AD-7DAEB236FDC7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolveMeFirstLibrary", "SolveMeFirst\SolveMeFirstLibrary\SolveMeFirstLibrary.csproj", "{5220BA94-637F-4972-A9AD-7DAEB236FDC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SolveMeFirstLibraryTests", "SolveMeFirst\SolveMeFirstLibraryTests\SolveMeFirstLibraryTests.csproj", "{3347053F-56CB-4C16-8001-7B2D6D84E440}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SolveMeFirstLibraryTests", "SolveMeFirst\SolveMeFirstLibraryTests\SolveMeFirstLibraryTests.csproj", "{3347053F-56CB-4C16-8001-7B2D6D84E440}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "C#ForBeginners", "C#ForBeginners", "{C2A2A4DF-8EE7-469E-A1AD-1D351BC381C3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "C#ForBeginnersTests", "C#ForBeginners\C#ForBeginnersTests\C#ForBeginnersTests.csproj", "{916DD343-ADFA-49BF-BBB3-364679E8EA24}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "C#ForBeginnersLibrary", "C#ForBeginners\C#ForBeginnersLibrary\C#ForBeginnersLibrary.csproj", "{14AAA770-4D49-496D-904C-D0ABD0961328}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +29,14 @@ Global
 		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3347053F-56CB-4C16-8001-7B2D6D84E440}.Release|Any CPU.Build.0 = Release|Any CPU
+		{916DD343-ADFA-49BF-BBB3-364679E8EA24}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{916DD343-ADFA-49BF-BBB3-364679E8EA24}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{916DD343-ADFA-49BF-BBB3-364679E8EA24}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{916DD343-ADFA-49BF-BBB3-364679E8EA24}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14AAA770-4D49-496D-904C-D0ABD0961328}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14AAA770-4D49-496D-904C-D0ABD0961328}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14AAA770-4D49-496D-904C-D0ABD0961328}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14AAA770-4D49-496D-904C-D0ABD0961328}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +44,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5220BA94-637F-4972-A9AD-7DAEB236FDC7} = {8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}
 		{3347053F-56CB-4C16-8001-7B2D6D84E440} = {8F1EEE91-7DF7-4EE8-BFD4-B907614CF8C2}
+		{916DD343-ADFA-49BF-BBB3-364679E8EA24} = {C2A2A4DF-8EE7-469E-A1AD-1D351BC381C3}
+		{14AAA770-4D49-496D-904C-D0ABD0961328} = {C2A2A4DF-8EE7-469E-A1AD-1D351BC381C3}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CA23CFFD-DF19-42CC-80BA-A2C55F300389}
